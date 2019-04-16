@@ -36,12 +36,13 @@ class Form extends React.Component {
                 <form onSubmit={this.submitForm}>
                 <fieldset>
                     <div className="form-data">
-                    <label htmlFor="title">Title</label>
+                    <label htmlFor="title">Title : </label>
                     <input
                         type="text"
                         name="title"
                         onChange={this.onChange}
                         value={this.state.title}
+                        placeholder="Change the title"
                     />
                     </div>
                     <div className="form-data">
